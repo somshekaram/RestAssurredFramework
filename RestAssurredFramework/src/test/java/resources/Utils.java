@@ -34,7 +34,7 @@ public class Utils {
 	
 	public static String getGlobalValue(String key) throws IOException{
 		Properties prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\TestingDemo\\RestAssurredFramework\\src\\test\\java\\resources\\global.properties");
+		FileInputStream fis=new FileInputStream("C:\\Users\\U0170874\\git\\RestAssurredFramework\\RestAssurredFramework\\src\\test\\java\\resources\\global.properties");
 		prop.load(fis);
 		return prop.getProperty(key);
 		

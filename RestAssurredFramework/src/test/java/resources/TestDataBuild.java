@@ -2,6 +2,7 @@ package resources;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import pojo.AddPlace;
 import pojo.Location;
 
@@ -26,5 +27,8 @@ public class TestDataBuild {
 		
 		return p;
  }
-
+  
+ public String delePlacePayload(String placeId){
+	 return "{\r\n    \"place_id\":\""+placeId+"\"\r\n}";
+ }
 }
